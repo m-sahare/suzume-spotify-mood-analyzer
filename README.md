@@ -28,17 +28,17 @@ spotify.js
 README.md
 LICENSE
 
-## 🚀 How to Run
+## How to Run
 1. Clone the repository
 2. Add your Spotify and Genius API keys in the js files
 3. Open `index.html`
 4. Log in with Spotify and analyze song moods
 
-## 📌 About the Project
+## About the Project
 Suzume focuses on emotion-driven music analysis rather than raw audio features, making it a
 creative and user-experience-focused project suitable for portfolios.
 
 ---
 
-## 📝 License
+## License
 This project is licensed under the MIT License.
