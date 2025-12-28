@@ -1,6 +1,6 @@
 
 
-const GENIUS_API_KEY = "zBpmkhO82AWnmrHyRYMmvk2h0h5abjjx_a_q8JEaz-zPiesZ7vtrtNrE7e4o58ML";
+const GENIUS_API_KEY = "YOUR_GENIUS_API_KEY";
 
 // Initialize app
 window.onload = () => {
@@ -48,7 +48,7 @@ function createSakuraPetals() {
   }
 }
 
-// Spotify Playback - Simplified Version
+// Spotify Playback Simplified Version
 function playOnSpotify(trackId) {
   window.open(`https://open.spotify.com/track/${trackId}`, '_blank');
 }
@@ -160,7 +160,7 @@ async function getMoodData(trackName, artistName, trackId) {
   } catch (err) {
     moodDiv.innerHTML = `
       <div class="error-message">
-        ❌ Couldn't analyze "${trackName}"<br>
+         Couldn't analyze "${trackName}"<br>
         <small>${err.message || "No lyrics available"}</small>
       </div>
     `;
